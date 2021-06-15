@@ -1,0 +1,72 @@
+/* 秒杀logo */
+.sk{
+  position: absolute;
+  left: 190px;
+  top:40px;
+  border-left: 1px solid #c81623;
+  padding: 3px 0 0 14px;
+}
+
+.sk_list{
+  float: left;
+}
+
+.sk_list ul li{
+  float: left;
+}
+
+.sk_list ul li a{
+  display: block;
+  line-height: 47px;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color:#000;
+
+}
+
+.sk_list ul li a:hover{
+  color: #c81623;
+}
+
+.sk_right{
+  float: left;
+}
+
+.sk_right ul li{
+  float: left;
+  line-height: 47px;
+  padding: 0 20px;
+}
+
+
+.sk_right ul li a{
+  font-size: 14px;
+  color: #666;
+}
+
+.sk_right ul li a:hover{
+  color: #c81623;
+}
+
+.sk_main{
+  margin-bottom: 30px;
+}
+
+.sk_main ul li{
+  float: left;
+  overflow: hidden;
+  margin-right: 13px;
+  margin-top: 15px;
+  width: 290px;
+  height: 460px;
+  /* 先设置一个边框,设置没有颜色,防止抖动 */
+  border: 1px solid transparent;
+}
+
+.sk_main ul li:nth-child(4n){
+  margin-right: 0;
+}
+.sk_main ul li:hover{
+  border: 1px solid #c81523;
+}

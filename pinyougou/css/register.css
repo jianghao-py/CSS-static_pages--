@@ -1,0 +1,108 @@
+.w{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header{
+  height: 84px;
+  border-bottom: 2px solid #c81623;
+}
+
+
+.register-area{
+  height: 522px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.register-area h3{
+  height: 42px;
+  line-height: 42px;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  background-color: #ececec;
+}
+
+.register-area h3 .right{
+  float: right;
+}
+
+.register-area h3 .right a{
+  color: #c81623;
+  text-decoration: underline;
+}
+
+.register-area .middle-box{
+  width: 600px;
+  margin: 50px auto;
+
+}
+
+
+
+.register-area .middle-box ul li{
+  color: #666;
+  margin-top: 25px;
+
+}
+
+.register-area .middle-box ul li label{
+  display: inline-block;
+  width: 88px;
+  text-align: right;
+}
+
+.register-area .middle-box ul li .input_class{
+  width: 242px;
+  height: 37px;
+  border: 1px solid #ccc;
+}
+
+.error{
+  margin-left: 5px;
+  color:#c81623;
+}
+
+.register-area .middle-box ul .safe{
+  padding-left: 170px;
+  font-size: 15px;
+}
+
+.safe em{
+  padding: 0 12px;
+
+}
+
+.weak{
+  color: white;
+  background-color: red;
+}
+
+.average{
+  color: white;
+  background-color: yellow;
+}
+
+.strong{
+  color: white;
+  background-color: green;
+}
+
+.agree {
+  padding-left: 100px;
+
+}
+
+.enter-button button{
+  width: 200px;
+  height: 34px;
+  background-color: #c81623;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  margin: 10px 0 0 90px;
+}
+
+.footer{
+  background-color: white;
+}
