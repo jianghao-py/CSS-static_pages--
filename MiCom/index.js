@@ -70,4 +70,20 @@ let autoPlay = setInterval(function(){
 
 
 
+let dropBox = document.querySelector(".drop-down");
+let dropLis = document.querySelectorAll(".site-header .header-nav ul li");
+
+for(let i=0;i<dropLis.length;i++){
+    dropLis[i].addEventListener("mouseover",function(){
+        dropBox.style.height = "100px";
+    })
+
+    dropLis[i].addEventListener("mouseleave",function(){
+        dropBox.style.height = "0";
+    })
+}
+
+
+
+
 
