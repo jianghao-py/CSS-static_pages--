@@ -83,7 +83,7 @@ for(let i=0;i<dropLis.length;i++){
         dropUl.style.display = "block";
         dropUl.style.opacity = 1;
 
-        
+        console.log(e.currentTarget,e.target);
    
         dropBox.addEventListener("mouseenter",function(){
             dropBox.style.height = "240px";
